@@ -1,0 +1,64 @@
+submissions:
+  Paul Grever & Andrew Overby
+    repository: https://github.com/paulgrever/sales_engine
+    evaluation:
+      notes:
+        Assessor: Horace
+
+        1. Functional Expectations
+        Score: 2
+
+        2. Test-Driven Development
+        Score: 4
+          * test coverage is quite good; could use some tidying up in places, but thoroughness is good
+
+        3. Encapsulation / Breaking Logic into Components
+        Score: 3
+
+        4. Fundamental Ruby & Style
+        Score: 3
+          * Code overall is quite good, but we need a little more
+          attention to detail in tidying up the codebase; perhaps a little more
+          usage of git branches to avoid WIP code on master, and making sure
+          tests are run whenever stuff is merged.
+
+        5. Enumerable & Collections
+        Score: 3+
+
+        6. Code Sanitation
+        Score: 1
+submissions:
+  Trey Tomlinson & Markus Olsen
+    repository: https://github.com/neslom/sales-engine
+    evaluation:
+      notes:
+        Assessor: Horace
+
+        1. Functional Expectations
+        Score: 2+
+          * getting very close; need a few more BI specs.
+
+        2. Test-Driven Development
+        Score: 3
+          * good amount of specs, seem to cover the code pretty
+          thoroughly. Would like to see some design-oriented specs
+          that might help suss out some of the issues with method
+          naming and arguments.
+
+        3. Encapsulation / Breaking Logic into Components
+        Score: 3
+
+        4. Fundamental Ruby & Style
+        Score: 3
+          * code usage is good; need to work on method naming,
+          consistency, and OO-style method usage
+
+        5. Enumerable & Collections
+        Score: 4
+          * enumerables are well-utilized and diverse; might be nice to
+          pick consistently on aliased methods (eg map vs collect) but overall
+          quite nice
+
+        6. Code Sanitation
+        Score: 1
+          * hard tabs
